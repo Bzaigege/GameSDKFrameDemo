@@ -1,0 +1,16 @@
+{
+    "plugin": [
+        {
+            "plugin_name": "plugin_wechat",
+            "class_name": "com.bzai.gamesdk.plugin.wechat.WechatPlugin",
+            "description": "微信功能插件",
+            "version": "5.1.4"
+        },
+        {
+            "plugin_name": "plugin_alipay",
+            "class_name": "com.bzai.gamesdk.plugin.alipay.AlipayPlugin",
+            "description": "支付宝功能插件",
+            "version": "15.5.5"
+        }
+    ]
+}

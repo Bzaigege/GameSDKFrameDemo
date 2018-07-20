@@ -1,0 +1,10 @@
+{
+    "project": [
+        {
+            "project_name": "project",
+            "class_name": "com.bzai.gamesdk.project.CustomProject",
+            "description": "自定义SDK项目",
+            "version": "1.0.0"
+        }
+    ]
+}

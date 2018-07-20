@@ -1,0 +1,57 @@
+include ':app',
+
+        //项目API
+        ':GameSDK_API',
+
+        //项目Project
+        ':GameSDK_Project_JuHe',
+        ':GameSDK_Project_Custom',
+
+        //渠道插件
+        ':GameSDK_Channel_Test',
+
+        //功能Module插件
+        ':GameSDK_Module_Init',
+        ':GameSDK_Module_Account',
+        ':GameSDK_Module_Purchase',
+
+        //功能插件
+        ':GameSDK_Manager_Impl',
+        ':GameSDK_Plugin_Alipay',
+        ':GameSDK_Plugin_Wechat',
+
+        //基础库
+        ':GameSDK_Utils'
+
+/***
+ * 后续新建一个Library Module 后拷贝到对应的目录就可以了,
+ * 然后替换成对应的工程目录，或者新添加的工程目录。Clean下
+ */
+
+//项目API工程,可根据需求修改
+project(':GameSDK_API').projectDir = new File('GameSDK_API')
+
+
+//项目Project工程,可根据需求修改
+project(':GameSDK_Project_JuHe').projectDir = new File('GameSDK_BeginProject/GameSDK_Project_JuHe')
+project(':GameSDK_Project_Custom').projectDir = new File('GameSDK_BeginProject/GameSDK_Project_Custom')
+
+
+//项目Channel工程,可根据需求修改
+project(':GameSDK_Channel_Test').projectDir = new File('GameSDK_Channel/GameSDK_Channel_Test')
+
+
+//项目Manager_Module工程,可根据需求修改
+project(':GameSDK_Module_Init').projectDir = new File('GameSDK_Manager/GameSDK_Module_Init')
+project(':GameSDK_Module_Account').projectDir = new File('GameSDK_Manager/GameSDK_Module_Account')
+project(':GameSDK_Module_Purchase').projectDir = new File('GameSDK_Manager/GameSDK_Module_Purchase')
+
+
+//项目Plugin工程,可根据需求修改
+project(':GameSDK_Manager_Impl').projectDir = new File('GameSDK_Manager_Impl')
+project(':GameSDK_Plugin_Alipay').projectDir = new File('GameSDK_Plugin/GameSDK_Plugin_Alipay')
+project(':GameSDK_Plugin_Wechat').projectDir = new File('GameSDK_Plugin/GameSDK_Plugin_Wechat')
+
+
+//基础库
+project(':GameSDK_Utils').projectDir = new File('GameSDK_Utils')
