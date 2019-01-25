@@ -21,6 +21,6 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    //    compile project(':GameSDK_Project_JuHe')
-    compile project(':GameSDK_Project_Custom')
+    compile project(':GameSDK_Project_JuHe')
+//    compile project(':GameSDK_Project_Custom')
 }

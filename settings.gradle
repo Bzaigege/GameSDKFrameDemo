@@ -9,6 +9,7 @@ include ':app',
 
         //渠道插件
         ':GameSDK_Channel_Test',
+        ':GameSDK_Channel_Lexiang',
 
         //功能Module插件
         ':GameSDK_Module_Init',
@@ -21,7 +22,13 @@ include ':app',
         ':GameSDK_Plugin_Wechat',
 
         //基础库
-        ':GameSDK_Utils'
+        ':GameSDK_Utils',
+
+        // 编译生成Jar工具
+        ':GameSDKBuildJarTool',
+
+        ':GameSDKDemo_Release',
+        ':GameSDKLibrary_Release'
 
 /***
  * 后续新建一个Library Module 后拷贝到对应的目录就可以了,
@@ -39,6 +46,7 @@ project(':GameSDK_Project_Custom').projectDir = new File('GameSDK_BeginProject/G
 
 //项目Channel工程,可根据需求修改
 project(':GameSDK_Channel_Test').projectDir = new File('GameSDK_Channel/GameSDK_Channel_Test')
+project(':GameSDK_Channel_Lexiang').projectDir = new File('GameSDK_Channel/GameSDK_Channel_Lexiang')
 
 
 //项目Manager_Module工程,可根据需求修改

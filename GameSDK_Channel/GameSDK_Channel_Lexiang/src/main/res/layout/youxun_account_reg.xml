@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/youxun_account_reg_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:visibility="gone" >
+
+    <RelativeLayout
+        android:layout_width="402dp"
+        android:layout_height="216dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/youxun_login_1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="116dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="12.5dp"
+                android:padding="16dp"
+                android:src="@drawable/youxun_login_8" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/youxun_drawable_2" >
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/youxun_login_6" />
+
+                    <EditText
+                        android:id="@+id/youxun_account_reg_acc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="40dip"
+                        android:layout_marginRight="35dip"
+                        android:background="@null"
+                        android:hint="请输入用户名"
+                        android:imeOptions="flagNoExtractUi"
+                        android:singleLine="true"
+                        android:textColor="#474747"
+                        android:textColorHint="#c6c6c6"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/youxun_account_reg_acc_close"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:padding="10dp"
+                        android:src="@drawable/youxun_login_9"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/youxun_drawable_2" >
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/youxun_login_7" />
+
+                    <EditText
+                        android:id="@+id/youxun_account_reg_pass1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="40dip"
+                        android:layout_marginRight="35dp"
+                        android:background="@null"
+                        android:hint="请输入密码"
+                        android:imeOptions="flagNoExtractUi"
+                        android:inputType="textPassword"
+                        android:singleLine="true"
+                        android:textColor="#474747"
+                        android:textColorHint="#c6c6c6"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/youxun_account_reg_pass_close1"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:padding="10dp"
+                        android:src="@drawable/youxun_login_9"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/youxun_drawable_2" >
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/youxun_login_7" />
+
+                    <EditText
+                        android:id="@+id/youxun_account_reg_pass2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="40dip"
+                        android:layout_marginRight="35dp"
+                        android:background="@null"
+                        android:hint="确认密码"
+                        android:imeOptions="flagNoExtractUi"
+                        android:inputType="textPassword"
+                        android:singleLine="true"
+                        android:textColor="#474747"
+                        android:textColorHint="#c6c6c6"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/youxun_account_reg_pass_close2"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:padding="10dp"
+                        android:src="@drawable/youxun_login_9"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/youxun_account_reg_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/youxun_drawable_1"
+                    android:enabled="false"
+                    android:text="注册并登录"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/youxun_account_reg_back"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:src="@drawable/youxun_login_5" />
+    </RelativeLayout>
+
+</RelativeLayout>

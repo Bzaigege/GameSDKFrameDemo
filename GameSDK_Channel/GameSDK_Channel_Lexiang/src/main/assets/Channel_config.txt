@@ -1,0 +1,10 @@
+{
+    "channel": [
+        {
+            "channel_name": "channel",
+            "class_name": "com.bzai.gamesdk.channel.lexiang.LexiangSDK",
+            "description": "乐享渠道SDK",
+            "version": "1.0.0"
+        }
+    ]
+}

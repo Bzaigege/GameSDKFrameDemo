@@ -20,7 +20,7 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile project(':GameSDK_Channel_Test')
+    compile project(':GameSDK_Channel_Lexiang')
     compile project(':GameSDK_Module_Init')
     compile project(':GameSDK_Module_Account')
     compile project(':GameSDK_Module_Purchase')

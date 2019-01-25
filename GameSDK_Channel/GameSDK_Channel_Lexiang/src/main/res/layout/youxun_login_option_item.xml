@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#ffffff" >
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/youxun_login_13" />
+
+        <TextView
+            android:id="@+id/youxun_login_oi_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dip"
+            android:layout_marginRight="35dip"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="#474747"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/youxun_login_oi_ib"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/youxun_login_9" />
+    </RelativeLayout>
+
+</LinearLayout>

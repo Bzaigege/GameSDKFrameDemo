@@ -1,0 +1,40 @@
+
+
+/**
+* Android sdk 路径。
+* 是否必须：必须。
+*/
+androidSdkPath=G:\\suyu\\xiaozhanxin\\AndroidSDK
+
+
+/**
+* Android目标SDK版本。
+* 是否必须：必须。
+*/
+targetSdkVersion=android-23
+
+
+/**
+*
+* 输出Jar的名称
+* 是否必须：必须
+*/
+jarName=sdk_lexiang
+
+
+/**
+* 输出Jar的版本号
+* 是否必须：必须。
+*/
+jarVersion=v1.0.0
+
+
+/**
+* 输出路径。
+* 是否必须：必须。
+*/
+outPutPath=D:\\BuildJar
+
+
+
+
