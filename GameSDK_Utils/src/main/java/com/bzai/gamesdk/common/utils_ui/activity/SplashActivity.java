@@ -54,7 +54,7 @@ public class SplashActivity extends Activity {
         mAssets = getAssets();
 
         try {
-
+            // 可以数组特性，来区分闪屏前后顺序
             mImages = mAssets.list("splash");
         } catch (IOException e) {
             e.printStackTrace();
