@@ -11,11 +11,27 @@
             android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
             android:screenOrientation="sensorLandscape">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="Bzai.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+
+        <activity android:name="com.bzai.gamesdk.common.utils_ui.activity.SplashActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:configChanges="orientation|screenSize|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
     </application>
+
+
+
 
 </manifest>
