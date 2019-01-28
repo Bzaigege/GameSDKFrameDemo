@@ -2,6 +2,5 @@
   "sdk_type": "1",
   "sdk_name": "SDK_Custom",
   "sdk_version": "1.0.0",
-  "sdk_url": "http://www.baidu.com/",
-  "sdk_tagid": "1"
+  "sdk_url": "http://www.baidu.com/"
 }
