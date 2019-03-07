@@ -1,5 +1,7 @@
 
-cmd目录 为手动脚本运行Demo
+### 该GameSDKBuildJarTool 用于自动化混淆SDK源码工具，只需要配置config、proguard_config_pro、project_list相关配置就可以了。
+
+cmd目录 为手动脚本运行Demo，配合博客来讲解自动化混淆的过程
 
 
 
