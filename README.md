@@ -1,7 +1,8 @@
 # GameSDKFrameDemo
-手游SDK框架Demo
+手游SDK框架Demo，不具备实际项目用途，仅做框架Demo展示
 
-不具备实际项目用途，仅做框架Demo展示
+###架构图
+![image text](https://github.com/Bzaigege/GameSDKFrameDemo/blob/master/git/SDK%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1.png)
 
 相关的资料说明可参考：
 
